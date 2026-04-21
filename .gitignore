@@ -17,3 +17,4 @@ __pycache__/
 # OS metadata
 .DS_Store
 clean_transcripts.md
+master_transcripts.md
