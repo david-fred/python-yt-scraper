@@ -89,12 +89,19 @@ This project follows a **Red-Green-Refactor** workflow. We write tests for trans
 ---
 
 ## 09. ERROR REFERENCE
+
 #### Transcript Unavailable
-**Error Code:** YT_TRANSCRIPT_UNAVAILABLE
-**Why this happens:** The YouTube creator has disabled closed captions or embedding for this specific video.
-**How to resolve:** 1. Check the video URL manually to see if it has auto-generated captions.
-2. If missing entirely, this video cannot be processed by the scraper.
-3. Ensure the video is not set to "Private."
+* **Error Code:** YT_TRANSCRIPT_UNAVAILABLE
+* **Why this happens:** The YouTube creator has disabled closed captions or embedding for this specific video.
+* **How to resolve:** 
+    1. Check the video URL manually to see if it has auto-generated captions.
+    2. If missing entirely, this video cannot be processed by the scraper.
+    3. Ensure the video is not set to "Private."
+
+#### Invalid ID
+* **Error Code:** YT_INVALID_ID
+* **Why this happens:** The provided YouTube ID is malformed or the video has been deleted.
+* **How to resolve:** Verify the 11-character alphanumeric string (e.g., `dQw4w9WgXcQ`) in the YouTube URL.
 
 ---
 
