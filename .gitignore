@@ -1,0 +1,19 @@
+# .gitignore:
+# Environments
+venv/
+ENV/
+env/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Data (Keep transcripts out of GitHub)
+*.md
+!README.md
+
+# OS metadata
+.DS_Store
+clean_transcripts.md
