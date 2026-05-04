@@ -1,8 +1,7 @@
 # test_scraper.py
 import pytest
 # We import from your existing file, which is now testable!
-from yt_scraper 
-import clean_transcript_text, get_dx_error_response
+from yt_scraper import clean_transcript_text, get_dx_error_response
 
 # -- Red-Green-Refactor for Data Cleaning --
 
